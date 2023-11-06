@@ -1,6 +1,6 @@
-package boattracker;
+package boattracker.internal;
 import java.util.ArrayList;
-
+import boattracker.boats.*;
 
 public class Employee {
     private int empId;
