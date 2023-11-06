@@ -1,4 +1,6 @@
 package boattracker;
+import java.util.ArrayList;
+
 
 public class Employee {
     private int empId;
@@ -21,4 +23,10 @@ public class Employee {
     public String getDepartment() {
         return this.department;
     }
+
+    public void addBoat(Boat boat){
+        this.boats.add(boat);
+        boat.addUser(this);
+    }
+
 }

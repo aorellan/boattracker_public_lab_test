@@ -21,7 +21,8 @@ public class Boat {
 
      
     public void addUser(Employee employee){
-	this.users.add(employee);
+        this.users.add(employee);
+        employee.addBoat(this);
     }
 
     public void removeUser(Employee employee){
