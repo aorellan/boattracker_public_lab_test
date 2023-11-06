@@ -5,6 +5,7 @@ public class Boat {
     private String modelNumber;
     private String boatColor;
     private double boatPri
+    private ArrayList<Employee> users = new ArrayList<Employee>();
 
      
     public Boat(String modelNumber){
